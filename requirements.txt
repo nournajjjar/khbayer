@@ -1,0 +1,11 @@
+streamlit>=1.40
+streamlit-lottie
+pandas
+numpy
+requests
+plotly
+Pillow
+textblob
+gTTS
+faiss-cpu
+sentence-transformers

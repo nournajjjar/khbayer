@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Runtime / private data
+users.json
+news_data.csv
+rag_cache.json
+output.mp3
+
+# Local design drafts
+Gemini_Generated_Image_*
+Capture_d_*
+gray_on_trans.png
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
