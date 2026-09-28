@@ -31,13 +31,22 @@ Users create an account, choose the topics they care about, and get a personaliz
 
 ## Screenshots
 
-| Login | Home |
+### Sign up and home
+| Create an account | Pick your interests |
 |---|---|
-| ![Login](docs/screenshots/login.png) | ![Home](docs/screenshots/home.png) |
+| ![Sign up](docs/screenshots/signup.png) | ![Interests](docs/screenshots/signup-interests.png) |
 
-| News dashboard | AI assistant |
+![Home](docs/screenshots/home.png)
+
+### News dashboard
+| Metrics and breaking news | Article cards |
 |---|---|
-| ![Dashboard](docs/screenshots/dashboard.png) | ![AI assistant](docs/screenshots/assistant.png) |
+| ![Dashboard](docs/screenshots/dashboard.png) | ![Articles](docs/screenshots/articles.png) |
+
+![Sentiment analysis](docs/screenshots/sentiment.png)
+
+### AI assistant
+![AI assistant](docs/screenshots/assistant.png)
 
 ## Features
 
@@ -49,6 +58,7 @@ Users create an account, choose the topics they care about, and get a personaliz
 ### News dashboard
 - Live headlines from **NewsAPI**: `top-headlines` first, with `/everything` as a fallback
 - **Sentiment analysis** with TextBlob, labeling each article *Positive*, *Negative* or *Neutral*
+- Metrics (total and positive articles), plus Plotly charts of the **sentiment trend** and **sentiment distribution**
 - Duplicate detection on title and URL, both within a fetch and across saved history
 - Filters by keyword, sentiment and your preferred topics
 - Checks that article links and images are live before showing them
